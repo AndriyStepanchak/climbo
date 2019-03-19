@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  margin: inherit;
+  position: absolute;
+  left: 5%;
+  right: 5%;
+
+}
+
+#mountaine-first img {
+  width: 100%;
+}
+
+.mountaine-first-header {
+  position: absolute;
+  left: 5%;
+  top: 2%;
+  width: 90%;
+  text-align: left;
+  font-size: 13px;
+  background-color: white;
+  color: rgb(48, 95, 125);
+  border: 1px solid white;
+  border-radius: 25px;
+  text-transform: uppercase;
+  display: flex;
+  padding-left: 2%;
+  padding-top: 0.4%;
+  padding-right: 2%;
+
+  justify-content: space-between;
+}
+
+.mountaine-first-header div {
+  margin-right: 1%;
+}
+
+.mountaine-first-header p {
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.mountaine-first-header a:hover {
+  border-left: 1px dotted blue;
+  border-right: 1px dotted blue;
+  border-radius: 25px;
+}
+
+.mountaine-first-header a {
+  color: rgb(48, 95, 125);
+  text-decoration: none;
+}
+
+.item-top-ten {
+  flex-grow: 1;
+}
+
+.mountaine-first-header div {
+  padding-top: 0.6%;
+  width: 25px;
+}
+
+@media (max-width:750px) {
+  .mountaine-first-header {
+    font-size: 10px;
+  }
+
+}
+
+@media (max-width:600px) {
+  .mountaine-first-header {
+    font-size: 11px;
+    width: 40%;
+    display: block;
+    background: none;
+  }
+
+  .mountaine-first-header {
+    display: table;
+    border: none;
+
+  }
+
+  .mountaine-first-header p,
+  div {
+    padding: 0;
+    margin: 0;
+  }
+
+  .mountaine-first-header p {
+    padding-top: 5%;
+  }
+
+  .mountaine-first-header a {
+    color: azure;
+  }
+
+  .mountaine a:hover {
+    border: none;
+    background-color: azure;
+    color: rgb(48, 95, 125);
+    border: 1px solid azure;
+    border-radius: 25px;
+  }
+}
+
+.mountaine-first-community {
+  width: 100%;
+  display: table;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  font-size: 60px;
+  color: white;
+  white-space: pre;
+  text-align: center;
+}
+
+.item-challenge {
+  margin: 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.item-go {
+  text-transform: uppercase;
+  font-size: 25px;
+  margin: auto;
+  width: 100px;
+  border: 3px solid white;
+  border-radius: 25px;
+  padding: 5px;
+  background-color: white;
+  margin-top: 30px;
+
+}
+
+.item-go a {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(48, 95, 125);
+}
+
+@media (max-width:600px) {
+  .mountaine-first-community {
+    width: 20%;
+    display: table;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    font-size: 22px;
+    color: white;
+    white-space: pre;
+    text-align:
+  }
+
+  .item-go {
+    font-size: 12px;
+    width: 55px;
+    margin-top: 15px;
+  }
+  .item-challenge {
+    font-size: 12px;
+  }
+}
